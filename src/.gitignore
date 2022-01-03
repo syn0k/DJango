@@ -1,37 +1,137 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
 
-### Windows ###
-# Windows thumbnail cache files
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
+# Backup files #
+*.bak
 
-# Dump file
-*.stackdump
+# If you are using PyCharm #
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
 
-# Folder config file
-[Dd]esktop.ini
+# AWS User-specific
+.idea/**/aws.xml
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Generated files
+.idea/**/contentModel.xml
 
-# Windows Installer files
-*.cab
-*.msi
-*.msix
-*.msm
-*.msp
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
 
-# Windows shortcuts
-*.lnk
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
 
-# intellij configs
-.idea/
+# File-based project format
+*.iws
 
-# pic
-*.png
-*.jpg
+# IntelliJ
+out/
 
-# End of https://www.toptal.com/developers/gitignore/api/windows
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Python #
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery
+celerybeat-schedule.*
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+# Sublime Text #
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# sftp configuration file
+sftp-config.json
+
+# Package control specific files Package
+Control.last-run
+Control.ca-list
+Control.ca-bundle
+Control.system-ca-bundle
+GitHub.sublime-settings
+
+# Visual Studio Code #
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
